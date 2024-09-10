@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "GuacamoleExporter": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "GUACAMOLE_HOSTNAME": "http://mpdcsvbastion.millau.fr:8080/guacamole",
+        "GUACAMOLE_USERNAME": "prometheus-exporter",
+        "GUACAMOLE_PASSWORD": "#Rj*4w@6*g*S66Vc!4FdQmFQ^imqlL",
+        "GUACAMOLE_DATASOURCE": "mysql",
+        "TIME_SHIFT": "2" 
+      }
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "DockerfileRunArguments": "--network=NET1",
+      "environmentVariables": {
+      }
+    }
+  }
+}
