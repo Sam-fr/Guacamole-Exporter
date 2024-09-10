@@ -1,6 +1,8 @@
 🚧🚧🚧
 An Apache Guacamole metrics exporter. It directly uses the Guacamole HTTP API. It supports TOTP.
 
+https://hub.docker.com/r/sam12100/guacamoleexporter
+
 | **metric** | **value** | **label** | **description**  |
 | ----------- | ----------- | ----------- | ----------- |
 | guacamole_up | 0 (service not up), 1 (service up) | - | Uses the "/api/patches" endpoint of the Guacamole API to test if the service is responding correctly. |
