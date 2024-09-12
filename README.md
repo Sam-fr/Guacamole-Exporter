@@ -8,6 +8,8 @@ It directly uses the Guacamole HTTP API. It supports TOTP.
 
 ![image](https://github.com/user-attachments/assets/8bd6385f-c28b-4b35-9258-4d4a636d7929)
 
+[Dashboard exemple](https://github.com/Sam-fr/Guacamole-Exporter-Graph)
+
 # Metrics
 | **metric** | **value** | **label** | **description**  |
 | ----------- | ----------- | ----------- | ----------- |
