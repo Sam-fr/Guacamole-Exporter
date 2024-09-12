@@ -1,5 +1,5 @@
 🚧🚧🚧
-An Apache Guacamole metrics exporter. It directly uses the Guacamole HTTP API. It supports TOTP.
+An [Apache Guacamole](https://guacamole.apache.org/) metrics exporter. It directly uses the Guacamole HTTP API. It supports TOTP.
 
 **Docker hub** : https://hub.docker.com/r/sam12100/guacamoleexporter
 
