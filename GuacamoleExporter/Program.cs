@@ -28,6 +28,7 @@ public class Program : IDisposable
         _metricsServer = new MetricServer(port: listenPort);
         _metricsServer.Start();
 
+        Metrics.SuppressDefaultMetrics();
         _guacamoleUpMetrics = Metrics.CreateGauge("guacamole_up", "Indicates whether guacamole is up");
         _guacamoleCountOfUserMetrics = Metrics.CreateGauge("guacamole_count_of_user", "Indicates count of user");
         _guacamoleCountOfActiveConnectionMetrics = Metrics.CreateGauge("guacamole_count_of_active_connection", "Count of active connection");
