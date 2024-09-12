@@ -1,6 +1,8 @@
 🚧🚧🚧
 An Apache Guacamole metrics exporter. It directly uses the Guacamole HTTP API. It supports TOTP.
 
+**Docker hub** : https://hub.docker.com/r/sam12100/guacamoleexporter
+
 # Metrics
 | **metric** | **value** | **label** | **description**  |
 | ----------- | ----------- | ----------- | ----------- |
@@ -45,3 +47,4 @@ If you want to retrieve the TOTP key you can mount volume `/data`
     volumes:
       - /srv/guac_exporter/data:/data
 ```
+**Make sure the host folder has the correct permissions**
