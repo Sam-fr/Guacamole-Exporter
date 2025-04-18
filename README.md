@@ -2,8 +2,6 @@
 
 It directly uses the Guacamole HTTP API. It supports TOTP.
 
-**This project will be maintained**
-
 **Docker hub** : https://hub.docker.com/r/sam12100/guacamoleexporter
 
 ![image](https://github.com/user-attachments/assets/8bd6385f-c28b-4b35-9258-4d4a636d7929)
